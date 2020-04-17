@@ -9,49 +9,53 @@ body {
     width: 100%;
 }
 
-.origin_uploaded_image {
-    height: 300px;
-    width: 300px;
+.input {
     position: absolute;
-    top: 150px;
-    left: 150px;
-    background-color: rgb(91, 92, 94);
-    z-index: 1;
-}
-
-.top_reflected_image {
-    position: absolute;
+    width: 40%;
     height: 100px;
-    width: 300px;
-    top: 50px;
-    left: 150px;
-    background-color: rgb(91, 92, 94);
-    visibility: hidden;    
+    left: 20%;
+    top: 100px;
+    background-color: aqua;
 }
 
-.top {
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-}
-
-.right_reflected_image {
+.output {
     position: absolute;
-    height: 300px;
-    width: 100px;
-    top: 150px;
-    left: 450px;
-    background-color: rgb(91, 92, 94); 
-    visibility: hidden;   
+    width: 40%;
+    height: 100px;
+    left: 20%;
+    top: 220px;
 }
 
-.right {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-
-.upload_btn {
+.inputForm {
+    width: 40%;
     position: absolute;
-    top: 280px;
-    left: 250px;
-    z-index: 5;;
+    left: 10%;
+    height: 60px;
+    top: 20px;
 }
+
+.btn {
+    width: 18%;
+    position: absolute;
+    left: 52%;
+    height: 60px;
+    top: 20px;
+    background-color: cadetblue;
+}
+
+.btn2 {
+    width: 18%;
+    position: absolute;
+    left: 72%;
+    height: 60px;
+    top: 20px;
+    background-color: rgb(129, 95, 160);
+}
+
+p {
+    margin: 20px;
+    background-color: rgb(162, 216, 171);
+    font-size: 25px;
+}
+
+
